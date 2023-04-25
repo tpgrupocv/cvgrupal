@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #ffffcc;
     font-size: large;
     height: 100%;
     width: 100%;
@@ -38,7 +38,7 @@ nav ul {
 ul li {
     width: 160px;
     height: 22px;
-    background: bisque;
+    background:#ffffcc;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -90,7 +90,7 @@ p {
     justify-content:space-evenly;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0px;
 }
 
 .main2 {
@@ -99,7 +99,7 @@ p {
     justify-content:center;
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 0px;
 }
 
 .div-img {
