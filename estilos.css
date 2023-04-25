@@ -95,7 +95,6 @@ p {
 
 .main2 {
     width: 17%;
-    height: 50px;
     justify-content:center;
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +103,7 @@ p {
 
 .div-img {
     width: 70%; 
-    height: 250px;
+    height: 70%;
     border-radius:64px; 
     border: solid 5px; 
     margin: 20px; 
@@ -148,6 +147,127 @@ footer {
 }
 
 
+@media all and (max-width: 970px) {  /*cuando el dispositivo es como máximo de 700px*/
+
+
+    nav ul {
+        display: none;
+        background-color: #6097c4;
+    }
+    
+    input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
+        display:block;
+        background-color: #6097c4;
+    }
+      
+    input:checked ~ label {   /*muestra todo el contenido de todas las etiquetas label */
+        background: lightgrey; 
+    }
+      
+    label:hover{                /*cambia el color de ☰ */
+        background: grey;
+        background-color: #6097c4;
+        width: 100%;
+        height: 20%;
+    }
+    
+    li{                         /*elimina el margen  de cada botón */
+        margin: 0px;
+        text-align: center;
+    }
+    
+    label {                      /* dibuja la etiqueta ☰  con formato botón */
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        background-color:#6097c4;
+        color: white;
+    }
+    
+    ul{                          /*deja de mostrar el bloque contenedor de los botones horizontales */
+        display: none;
+        background-color:white;
+        width: 100%;
+
+    }
+     /*para que se alarga el menu cuando lo abramos
+    ul li{
+        width: auto;
+    }
+    */
+    
+    ul li a{
+        text-decoration: none;
+        color: black;   
+    }
+    
+    ul li a:hover{
+        color:#7bffff;
+    }
+    
+    footer{
+        position: relative;
+    }
+    
+    }
+
+
+@media (max-width:800px){
+    .div-all{
+        width: auto;
+        justify-content:space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .main2 {
+        width: 30%;
+        height: 30%;
+        justify-content:center;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        margin: 0px;
+    }
+
+    .div-img {
+        width: 100%; 
+        height: 210px;
+        padding: 10px; 
+        display: block;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    img {
+        width:100%;
+        height: 100%;
+    }
+
+
+    .div-texto2{
+        flex-wrap: wrap;
+        margin: 50px;
+        width: 100% ;
+        padding: 20px;
+        left: 376px;
+        top: 310px;
+    }
+
+    .footer1 {
+        position:relative;
+    }
+}
+
+
+
 @media (max-width:565px){  
     h1{
         font-size: 20px;
@@ -165,6 +285,7 @@ footer {
 
     .main2 {
         width: 100%;
+        height: 100%;
         justify-content:center;
         display: flex;
         flex-wrap: wrap;
@@ -174,7 +295,7 @@ footer {
 
     .div-img {
         width: 100%; 
-        height: auto;
+        height: 100%;
         padding: 10px; 
         display: block;
         flex-wrap: wrap;
@@ -188,9 +309,8 @@ footer {
 
 
     .div-texto2{
-        position: static;
         flex-wrap: wrap;
-        margin: 0px;
+        margin: 50px;
         width: 100% ;
         padding: 20px;
         left: 376px;
