@@ -1,3 +1,7 @@
+#hproyecto{
+
+}
+
 * {
     margin:auto;
 }
@@ -90,6 +94,7 @@ p {
     margin: 10px 20px;
     float: left;
     width: 350px;
+    display: inline-block;
 }
 
 
