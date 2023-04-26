@@ -59,10 +59,11 @@ ul li a {
         height: 70%;
         padding-bottom: 40%;
 }
+/*
  #amain{
         height: 90%;
         padding-bottom: 40%;
-}
+}*/
 
 .main1 {
     justify-content:center;
@@ -142,8 +143,9 @@ img {
 
 
 
-.footer1 {
+#footer1 {
     position: absolute;
+    bottom: 0;
 }
 
 footer {
@@ -240,10 +242,10 @@ footer {
         padding: 10px;
     }
 
-     #amain{
+    /* #amain{
         height: 90%;
         padding-bottom: 50%;
-}
+}*/
 
     .main2 {
         width: 30%;
@@ -312,10 +314,10 @@ footer {
                 height: 70%;
                 padding-bottom: 47%;
         }
-          #amain{
+          /*#amain{
                 height: 100%;
                 padding-bottom: 118%;
-        }
+        }*/
 
     .main2 {
         width: 100%;
